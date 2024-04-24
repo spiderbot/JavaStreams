@@ -1,3 +1,5 @@
+package com.piyush.joshi.stream.operations;
+
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
@@ -69,7 +71,9 @@ public class Main {
                 .collect(Collectors.groupingBy(Student::getDepartmantName, Collectors.averagingInt(Student::getRank)));
         System.out.println("Average rank in all departments  : "+averageAgeInAllDepts);
 
-        //
+        //Find the student who has second rank
+        List<Student> limit = list.stream().sorted(Comparator.comparing(Student::getRank)).skip(1).limit(1).collect(Collectors.toList());
+        printList(limit);
     }
 
     private static void printList(List<Student> list) {

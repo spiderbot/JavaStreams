@@ -1,3 +1,4 @@
+package com.piyush.joshi.stream.operations;
 public class Student {
 
     /** The id. */
@@ -104,6 +105,7 @@ public class Student {
      *
      * @param lastName the new last name
      */
+
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
