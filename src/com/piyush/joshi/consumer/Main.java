@@ -1,4 +1,4 @@
-package com.piyush.joshi.stream.consumer;
+package com.piyush.joshi.consumer;
 
 import java.util.Arrays;
 import java.util.function.Consumer;

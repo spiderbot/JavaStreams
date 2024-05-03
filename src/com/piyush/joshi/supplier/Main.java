@@ -1,4 +1,4 @@
-package com.piyush.joshi.stream.supplier;
+package com.piyush.joshi.supplier;
 
 import java.util.Arrays;
 import java.util.Collections;

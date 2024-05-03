@@ -1,4 +1,4 @@
-package com.piyush.joshi.stream.predicate;
+package com.piyush.joshi.predicate;
 
 import java.util.function.Predicate;
 import java.util.stream.Collectors;

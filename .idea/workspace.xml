@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6dc662c-fdbb-4d3f-884f-bcd5c3e56dbf" name="Changes" comment="learning streams">
-      <change afterPath="$PROJECT_DIR$/src/com/piyush/joshi/stream/consumer/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/piyush/joshi/stream/predicate/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/piyush/joshi/stream/supplier/Main.java" afterDir="false" />
+    <list default="true" id="f6dc662c-fdbb-4d3f-884f-bcd5c3e56dbf" name="Changes" comment="consumer, predicate, function and supplier sample codes">
+      <change afterPath="$PROJECT_DIR$/src/com/piyush/joshi/function/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/piyush/joshi/stream/consumer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/piyush/joshi/consumer/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/piyush/joshi/stream/operations/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/piyush/joshi/stream/operations/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/piyush/joshi/stream/predicate/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/piyush/joshi/predicate/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/piyush/joshi/stream/supplier/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/piyush/joshi/supplier/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,10 +58,16 @@
       <recent name="com.piyush.joshi.stream.joins" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.piyush.joshi.stream.supplier.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="Application.com.piyush.joshi.function.Main">
+    <configuration name="com.piyush.joshi.function.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.piyush.joshi.function.Main" />
       <module name="JavaStreams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.piyush.joshi.function.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -118,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.piyush.joshi.function.Main" />
         <item itemvalue="Application.com.piyush.joshi.stream.supplier.Main" />
         <item itemvalue="Application.com.piyush.joshi.stream.predicate.Main" />
         <item itemvalue="Application.com.piyush.joshi.stream.consumer.Main" />
         <item itemvalue="Application.com.piyush.joshi.stream.joins.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -158,11 +166,20 @@
       <option name="project" value="LOCAL" />
       <updated>1713939336818</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="consumer, predicate, function and supplier sample codes">
+      <option name="closed" value="true" />
+      <created>1714754808080</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714754808080</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="learning streams" />
-    <option name="LAST_COMMIT_MESSAGE" value="learning streams" />
+    <MESSAGE value="consumer, predicate, function and supplier sample codes" />
+    <option name="LAST_COMMIT_MESSAGE" value="consumer, predicate, function and supplier sample codes" />
   </component>
 </project>
