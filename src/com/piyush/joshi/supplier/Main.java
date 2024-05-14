@@ -10,7 +10,7 @@ import java.util.stream.IntStream;
 public class Main {
     public static void main(String[] args) {
         Supplier<String[]> supplier = () -> {
-            return new String[]{"Mumbai", "Delhi", "Goa", "Pune"};
+            return new String[]{"Mumbai", "Delhi", "Goa", "Pune","Bangalore"};
         };
         for (String s : Arrays.asList(supplier.get())) {
             System.out.println("element -> " + s);
